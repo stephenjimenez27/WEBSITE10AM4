@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE LABS GROUP 4 (10AM4)</title>
+
+    <!------------ GOOGLE FONTS ------------>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap"
+        rel="stylesheet">
+
+    <!------------ FONT AWESOME ------------>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+    <!------------ CUSTOM STYLE SHEET ------------>
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="icon" type="image" href="logo.png">
+</head>
+
+<body>
+
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="index.html">LIFE LABS</a></div>
+      <input type="radio" name="slide" id="menu-btn">
+      <input type="radio" name="slide" id="cancel-btn">
+      <ul class="nav-links">
+        <label for="cancel-btn" class="btn cancel-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html#about">ABOUT</a></li>
+        <li>
+          <a href="contentpage.html" class="desktop-item">CONTENT MENU</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">DROPDOWN MENU</label>
+          <ul class="drop-menu">
+            <li><a href="contentpage.html#content_a">CONTENT A</a></li>
+            <li><a href="contentpage.html#content_b">CONTENT B</a></li>
+            <li><a href="contentpage.html#content_c">CONTENT C</a></li>
+            <li><a href="contentpage.html#content_d">CONTENT D</a></li>
+            <li><a href="contentpage.html#content_e">CONTENT E</a></li>
+            <li><a href="contentpage.html#content_f">CONTENT F</a></li>
+            <li><a href="contentpage.html#references">REFERENCES</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="index.html#team" class="desktop-item">TEAM</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">TEAM</label>
+        </li>
+        <li><a href="index.html#contact_us">CONTACT US</a></li>
+        <li><a href="index.html#feedback">FEEDBACK</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+  
+  <div class="slider" id="home">
+    <div class="slides">
+      <div class="slide">
+        <div class="slide-data">
+          <h1>WELCOME</h1>
+          <p></p>
+          <li><a href="#about">LEARN MORE</a><li>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-data">
+          <h1>JOURNEY</h1>
+          <p></p>
+          <li><a href="contentpage.html">LEARN MORE</a></li>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-data">
+          <h1>ABOUT</h1>
+          <p></p>
+          <li><a href="#about">LEARN MORE</a></li>
+        </div>
+      </div>
+    </div>
+
+    <button class="arrows prev" onclick="plusslide(-1)">
+      <span><i class="fas fa-angle-left"></i></span>
+    </button>
+    <button class="arrows next" onclick="plusslide(1)">
+      <span><i class="fas fa-angle-right"></i></span>
+    </button>
+
+    <div class="dots">
+      <center>
+        <span onclick="currentslide(1)"></span>
+        <span onclick="currentslide(2)"></span>
+        <span onclick="currentslide(3)"></span>
+      </center>
+    </div>
+  </div>
+    
+  <section id="about">
+    <div>
+      <h2>ABOUT</h2>
+      <p style="text-align: justify;">This website was created with the aim of documenting  our journey in finding the need in streaming and our journey during the first quarter of Life Labs 10. This website is created by the Facilitator of Group 4 (Stephen Jimenez).</p>
+        <a href="index.html#team">TEAM</a>
+    </div>
+    <img src="livestream.jpg" class="image">
+  </section>
+  
+  <div class="wrapper2" id="team">
+    <h1>Our Team</h1>
+    <div class="our_team">
+        <div class="team_member">
+          <div class="member_img">
+             <img src="STEPHEN.png" alt="our_team">
+            <div class="social_media">
+               <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+               <div class="twitter item"><i class="fab fa-twitter"></i></div>
+               <div class="instagram item"><i class="fab fa-instagram"></i></div>
+             </div>
+          </div>
+          <h4>STEPHEN JIMENEZ</h4>
+          <span>FACILITATOR</span>
+          <p>10AM4</p>
+        </div>
+        <div class="team_member">
+           <div class="member_img">
+             <img src="CEDRIC.png" alt="our_team">
+             <div class="social_media">
+               <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+               <div class="twitter item"><i class="fab fa-twitter"></i></div>
+               <div class="instagram item"><i class="fab fa-instagram"></i></div>
+             </div>
+          </div>
+          <h4>CEDRIC PUNZALAN</h4>
+          <span>SCRIBE</span>
+          <p>10AM4 </p>
+        </div>
+        <div class="team_member">
+           <div class="member_img">
+             <img src="JOHN.png" alt="our_team">
+             <div class="social_media">
+               <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+               <div class="twitter item"><i class="fab fa-twitter"></i></div>
+               <div class="instagram item"><i class="fab fa-instagram"></i></div>
+             </div>
+          </div>
+          <h4>JOHN MACABABAT</h4>
+          <span>SCRIBE</span>
+          <p>10AM4</p>
+        </div>
+        <div class="team_member">
+           <div class="member_img">
+             <img src="ZEUS.png" alt="our_team">
+             <div class="social_media">
+               <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+               <div class="twitter item"><i class="fab fa-twitter"></i></div>
+               <div class="instagram item"><i class="fab fa-instagram"></i></div>
+             </div>
+          </div>
+          <h4>ZEUS MOSQUERA</h4>
+          <span>SPOKESPERSON</span>
+          <p>10AM4</p>
+        </div>
+        <div class="team_member">
+          <div class="member_img">
+             <img src="WIAN.png" alt="our_team">
+            <div class="social_media">
+               <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+               <div class="twitter item"><i class="fab fa-twitter"></i></div>
+               <div class="instagram item"><i class="fab fa-instagram"></i></div>
+             </div>
+          </div>
+          <h4>WIAN MANALANG</h4>
+          <span>SPOKESPERSON</span>
+          <p>10AM4</p>
+        </div>
+        <div class="team_member">
+          <div class="member_img">
+             <img src="MADDOX.png" alt="our_team">
+            <div class="social_media">
+               <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+               <div class="twitter item"><i class="fab fa-twitter"></i></div>
+               <div class="instagram item"><i class="fab fa-instagram"></i></div>
+             </div>
+          </div>
+          <h4>MADDOX MANUEL</h4>
+          <span>SPOKESPERSON</span>
+          <p>10AM4</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="header2" id="contact_us">
+    <h3>CONTACT US</h3>
+  
+  
+  <div class="contact-wrap">
+    <div class="contact-in">
+      <h1>Contact Info</h1>
+      <h2><i class="fa fa-phone" aria-hidden="true"></i>Phone</h2>
+      <p>(+63) 9226993939</p>
+      <h2><i class="fa fa-envelope" aria-hidden="true"></i>Email</h2>
+      <p>stephenjimenez13@gmail.com</p>
+      <h2><i class="fa fa-map-marker" aria-hidden="true"></i>Address</h2>
+      <p>Metro Manila, Philippines</p>
+      <ul>
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="contact-in">
+      <h1>Send a Message</h1>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLScqKWgR9kAVI1_v7THpoQ--liTCoLCyKwAchSPgnOQrtG_Ofg/viewform">
+        <input type="text" placeholder="Full Name" class="contact-in-input">
+        <input type="text" placeholder="Email" class="contact-in-input">
+        <input type="text" placeholder="Subject" class="contact-in-input">
+        <textarea placeholder="Message" class="contact-in-textarea"></textarea>
+        <input type="submit" value="SUBMIT" class="contact-in-btn">
+      </form>
+    </div>
+    <div class="contact-in">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494277.08422334795!2d120.74044295581713!3d14.568293991423158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8d26026386d%3A0x5fed23daac9278d0!2sMetro%20Manila!5e0!3m2!1sen!2sph!4v1609512598651!5m2!1sen!2sph" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+  </div>
+  
+  <div class="header5" id="feedback">
+    <h1>FEEDBACK</h1>
+  <center>
+  <div class="feedback-area">
+  <div class="container-area">
+    <form class="feedback" action="https://docs.google.com/forms/d/e/1FAIpQLSdfZqQ2yvR7aQ2vUn4BdSILT4_wkWugcWrd0o_nC3mq2FToug/viewform">
+      <h1>Give your Feedback</h1>
+      <div class="id">
+        <input type="text" placeholder="Full name">
+        <i class="far fa-user"></i>
+      </div>
+      <div class="id">
+        <input type="email" placeholder="Email address">
+        <i class="far fa-envelope"></i>
+      </div>
+      <textarea cols="15" rows="5" placeholder="Type you feedback here..."></textarea>
+      <button>Send</button>
+    </form>
+  </div>
+  </div>
+  </center>
+  </div>
+  
+  <footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2>About us</h2>
+        <div class="first-content">
+          <p>This website was created with the aim of documenting  our journey in finding the need in streaming and our journey during the first quarter of Life Labs 10. This website is created by the Facilitator of Group 4 (Stephen Jimenez).</p>
+          <div class="media">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-twitter"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+            <a href="#"><span class="fab fa-google"></span></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="first-content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Metro Manila, Philippines</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">(+63) 9226993939</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">stephenjimenez13@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="right box">
+        <h2>Contact us</h2>
+        <div class="first-content">
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLScqKWgR9kAVI1_v7THpoQ--liTCoLCyKwAchSPgnOQrtG_Ofg/viewform">
+            <div class="email">
+              <div class="text">Email</div>
+              <input type="email">
+            </div>
+            
+            <div class="msg">
+              <div class="text">Message</div>
+              <textarea rows="2" cols="25"></textarea>
+            </div>
+            
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bottom">
+      <center>
+        <span class="credit"> Created By <a href="https://www.facebook.com/stephenvillaflorjimenez/">StephenJimenez</a> | </span>
+        <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+      </center>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+  
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style-type: none;
+}
+
+body{
+  background-color: #111;
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7e7e7e;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+nav{
+  background: #2A2C2D;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  height: 65px;
+  line-height: 65px;
+}
+
+nav .wrapper{
+  position: relative;
+  max-width: 1250px;
+  padding: 0 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper .logo a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.wrapper .nav-links{
+  display: inline-flex;
+}
+
+.nav-links li{
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav-links li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover{
+  background: #3A3B3C;
+}
+
+.nav-links .drop-menu{
+  background: #2A2C2D;
+  width: 169px;
+  top: 85px;
+  line-height: 45px;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-links li:hover .drop-menu,
+.nav-links li:hover .mega-box{
+  top: 65px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
+}
+
+.drop-menu li a{
+  width: 100%;
+  display: block;
+  padding: 0 0 0 15px;
+  font-weight: 400;
+  border-radius: 0px;
+}
+
+.nav-links .mobile-item{
+  display: none;
+}
+
+.wrapper .btn{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.wrapper .btn.cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+@media screen and (max-width: 1100px){
+  .wrapper .btn{
+    display: block;
+  }
+  
+  .wrapper .nav-links{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    background: #2A2C2D;
+    display: block;
+    top: 0;
+    left: -100%;
+    overflow-y: auto;
+    line-height: 50px;
+    padding: 50px 10px;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+  }
+  
+  #menu-btn:checked ~ .nav-links{
+    left: 0%;
+  }
+  
+  #menu-btn:checked ~ .btn.menu-btn{
+    display: none;
+  }
+  
+  .nav-links::-webkit-scrollbar{
+    width: 0px;
+  }
+  
+  .nav-links li{
+    margin: 15px 10px;
+  }
+  
+  .nav-links li a{
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .nav-links .drop-menu{
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    top: 65px;
+    padding-left: 20px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  #showDrop:checked ~ .drop-menu,
+  #showMega:checked ~ .mega-box{
+    max-height: 100%;
+  }
+  .nav-links .drop-menu li{
+    margin: 0;
+  }
+  
+  .nav-links .drop-menu li a{
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .nav-links .desktop-item{
+    display: none;
+  }
+  
+  .nav-links .mobile-item{
+    display: block;
+    font-size: 20px;
+    color: #f2f2f2;
+    font-weight: 500;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links .mobile-item:hover{
+    background: #3A3B3C;
+  }
+}
+
+.wrapper input{
+  display: none;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slides {
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 2s ease;
+}
+
+.slide {
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.slide:nth-child(1) {
+    background-image: url(sample1.jpg);
+}
+
+.slide:nth-child(2) {
+    background-image: url(sample3.jpg);
+}
+
+.slide:nth-child(3) {
+    background-image: url(sample2.jpg);
+}
+
+.slide-data {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 0 20%;
+}
+
+.slide-data h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.slide-data p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.slide-data a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    background: #e4a0f7;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 25px;
+    font-size: 10px;
+    transition: 0.4s linear;
+}
+
+.slide-data a:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.slider .arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 60px;
+    color: #fff;
+    transition: 0.4s linear;
+}
+
+.slider .arrows:hover {
+    text-shadow: 0px 0px 20px #e4a0f7, 0px 0px 20px #e4a0f7;
+}
+
+.slider .prev {
+    left: 3%;
+}
+
+.slider .next {
+    right: 3%;
+}
+
+.dots {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.dots span {
+    width: 23px;
+    height: 23px;
+    border-radius: 100px;
+    margin: 0 6px;
+    background-color: #fff;
+    display: inline-block;
+    transition: 0.4s linear;
+}
+
+.dots span:hover {
+    background-color: black !important;
+    border: 2px solid #fff;
+}
+
+.dot-active {
+    background-color: #e4a0f7 !important;
+    border: 2px solid #fff;
+}
+
+section{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 150px 100px 100px;
+}
+
+section .image{
+  max-width: 350px;
+  margin-left: 30px;
+}
+
+section h2{
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+section p{
+  font-size: 20px;
+}
+
+section a{
+  display: inline-block;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+  background: #e4a0f7;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+section:nth-child(odd){
+  position: relative;
+  justify-content: center;
+  background-color: #111;
+  color: white;
+}
+
+@media (max-width: 992px){
+  section{
+    padding: 100px 50px 50px;
+    flex-direction: column;
+  }
+  
+  section .image{
+    margin: 50px 0 0;
+    max-width: 100%;
+  }
+}
+
+.wrapper2{
+  margin-top: 60px;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper2 h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 200px;
+  margin: 5px;
+  background: #fff;
+  padding: 20px 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #e4a0f7;
+  max-width: 190px;
+  width: 100%;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h4{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 15px;
+  color: grey;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.our_team .team_member p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab{
+  color: white;
+  font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media{
+  transform: scale(1);
+}
+
+.header2{
+  min-height: 100vh;
+}
+
+.header2 h3{
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+  padding-block: 48px;
+  margin-bottom: 20px;
+  color: var(--primary);
+  font-size: 40px;
+  letter-spacing: 0;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.header2 .contact-wrap{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-in{
+  padding: 40px 30px;
+}
+
+.contact-in:nth-child(1){
+  flex: 30%;
+  background: url('sample2.jpg');
+  color: #fff;
+}
+
+.contact-in:nth-child(2){
+  flex: 45%;
+  background: #e4a0f7;
+}
+
+.contact-in:nth-child(3){
+  flex: 25%;
+  padding: 0;
+}
+
+.contact-in h1{
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.contact-in h2{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.contact-in h2 i{
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background: #f5f5f5;
+  color: #000;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.contact-in p{
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.contact-in ul{
+  padding: 0;
+  margin: 0;
+}
+
+.contact-in ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.contact-in ul li a{
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50px;
+}
+
+.contact-in ul li a i{
+  font-size: 15px;
+  line-height: 30px;
+  color: #000;
+}
+
+.contact-in form{
+  width: 100%;
+  height: auto;
+}
+
+.contact-in-input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  padding-left: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-in-input::placeholder{
+  color: #fff;
+}
+
+.contact-in-textarea{
+  width: 100%;
+  height: 140px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  padding-top: 5px;
+  padding-left: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  resize: none;
+}
+
+.contact-in-textarea::placeholder{
+  color: #fff;
+}
+
+.contact-in-btn{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.contact-in iframe{
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width:480px){
+  .contact-in:nth-child(1){
+    flex: 50%;
+  }
+  
+  .contact-in:nth-child(2){
+    flex: 50%;
+  }
+  
+  .contact-in:nth-child(3){
+    flex: 100%;
+  }
+}
+
+@media only screen and (max-width:360px){
+  .contact-in:nth-child(1){
+    flex: 50%;
+  }
+  
+  .contact-in:nth-child(2){
+    flex: 50%;
+  }
+  
+  .contact-in:nth-child(3){
+    flex: 100%;
+  }
+}
+
+.cointainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  background: white;
+}
+:root{
+  --primary: white;
+}
+
+.header5{
+  min-height: 100vh;
+}
+
+.header5 h1{
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+  padding-top: 48px;
+  margin-bottom: 0px;
+  color: var(--primary);
+  font-size: 40px;
+  letter-spacing: 0;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.feedback-area {
+  position: relative;
+  height: 90%;
+  width: 100%;
+  background: transparent;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-area .container-area {
+  width: 275px;
+  background: white;
+  box-shadow: 0 0 8px #e4a0f7;
+  opacity: 0.9;
+  transform: scale(1.2);
+}
+
+.feedback-area .container-area .feedback {
+  width: 100%;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.feedback h1 {
+  padding: 10px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #e4a0f7;
+}
+
+.feedback .id {
+  position: relative;
+}
+
+.id i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: #e4a0f7;
+}
+
+.feedback input {
+  width: 100%;
+  height: 45px;
+  margin: 4px 0;
+  border: 2px solid #e4a0f7;
+  border-radius: 3px;
+  background: white;
+  padding: 0 15px;
+  padding-right: 45px;
+  font-size: 10px;
+}
+
+.feedback textarea {
+  padding: 5px 15px;
+  border: 2px solid #e4a0f7;
+  border-radius: 3px;
+  background: white;
+  font-size: 10px;
+  resize: none;
+  width: 100%;
+  margin: 4px 0;
+}
+
+.feedback button {
+  margin-top: 5px;
+  border: none;
+  background: #e4a0f7;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.feedback button:hover {
+  background: black;
+}
+
+.feedback input:focus,
+.feedback textarea:focus {
+  border: 1px solid #00fff0;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.feedback:focus::placeholder,
+.feedback textarea:focus::placeholder {
+  padding-left: 4px;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.feedback input:focus + i {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+footer{
+  position: scroll;
+  bottom: 0px;
+  width: 100%;
+  background: #2A2C2D;
+  color: white;
+}
+
+.main-content{
+  display: flex;
+}
+
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.box .first-content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.box .first-content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.box .first-content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #e4a0f7;
+  top: -10px;
+}
+
+.left .first-content p{
+  text-align: justify;
+}
+
+.left .first-content .media{
+  margin: 20px 0 0 0;
+}
+
+.left .first-content .media a{
+  padding: 0 2px;
+}
+
+.left .first-content .media a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.left .first-content .media a span:hover{
+  background: #e4a0f7;
+}
+
+.center .first-content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.center .first-content .fas:hover{
+  background: #e4a0f7;
+}
+
+.center .first-content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.center .first-content .phone{
+  margin: 10px 0;
+}
+
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+  resize: none;
+  color: white;
+}
+
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #e4a0f7;
+}
+
+.right form input{
+  height: 35px;
+}
+
+.right form .btn{
+  margin-top: 10px;
+}
+
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #e4a0f7;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+
+.right form .btn button:hover{
+  background: #000;
+}
+
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+
+.bottom center span{
+  color: #656565;
+}
+
+.bottom center a{
+  color: #e4a0f7;
+  text-decoration: none;
+}
+
+.bottom center a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px){
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+</style>
+
+</body>
+</html>
